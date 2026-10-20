@@ -1,0 +1,91 @@
+
+# ==========================================
+# Visual Studio
+# ==========================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.DotSettings.user
+
+# ==========================================
+# Build output
+# ==========================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+publish/
+TestResults/
+[Tt]est[Rr]esult*/
+*.binlog
+
+# ==========================================
+# IDEs and editors
+# ==========================================
+.idea/
+.history/
+.vscode/
+*.code-workspace
+
+# ==========================================
+# .NET / NuGet
+# ==========================================
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+[Ll]og/
+[Ll]ogs/
+*.log
+*.tmp
+*.temp
+*~
+~$*
+
+# ==========================================
+# Test and coverage reports
+# ==========================================
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+BenchmarkDotNet.Artifacts/
+
+# ==========================================
+# Secrets and local environment
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+appsettings.Development.local.json
+
+# User-specific local certificates
+*.pfx
+*.publishsettings
+
+# ==========================================
+# Local databases
+# ==========================================
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# OS files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
